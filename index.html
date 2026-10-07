@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brizzy Creator Studios LLC</title>
+    <style>
+        :root {
+            --primary-color: #1e3a8a;
+            --secondary-color: #3b82f6;
+            --accent-color: #f3f4f6;
+            --text-color: #1f2937;
+            --light-bg: #f9fafb;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: var(--light-bg);
+            color: var(--text-color);
+            line-height: 1.6;
+        }
+        header {
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            color: white;
+            text-align: center;
+            padding: 4rem 2rem;
+        }
+        header h1 {
+            margin: 0 0 10px 0;
+            font-size: 2.5rem;
+        }
+        header p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+        .container {
+            max-width: 1000px;
+            margin: -30px auto 40px auto;
+            background: white;
+            padding: 2.5rem;
+            border-radius: 12px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+            position: relative;
+        }
+        .section-title {
+            color: var(--primary-color);
+            border-bottom: 2px solid var(--accent-color);
+            padding-bottom: 0.5rem;
+            margin-top: 2rem;
+            margin-bottom: 1.5rem;
+            font-size: 1.5rem;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1.5rem;
+        }
+        .card {
+            background: var(--accent-color);
+            padding: 1.5rem;
+            border-radius: 8px;
+            border-left: 4px solid var(--secondary-color);
+        }
+        .card h3 {
+            margin-top: 0;
+            color: var(--primary-color);
+            font-size: 1.1rem;
+        }
+        .card p {
+            margin: 0;
+            word-break: break-all;
+        }
+        footer {
+            text-align: center;
+            padding: 2rem;
+            background: var(--text-color);
+            color: white;
+            margin-top: 3rem;
+            font-size: 0.9rem;
+        }
+        @media (max-width: 768px) {
+            .container {
+                margin: 10px;
+                padding: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Brizzy Creator Studios LLC</h1>
+        <p>Official Business Registration & Corporate Profile</p>
+    </header>
+
+    <div class="container">
+        <h2 class="section-title">Company Overview</h2>
+        <div class="grid">
+            <div class="card">
+                <h3>Entity Name</h3>
+                <p>Brizzy Creator Studios LLC</p>
+            </div>
+            <div class="card">
+                <h3>File Number</h3>
+                <p>17199261</p>
+            </div>
+            <div class="card">
+                <h3>State of Organization</h3>
+                <p>Montana, USA (Secretary of State)</p>
+            </div>
+            <div class="card">
+                <h3>Date Filed</h3>
+                <p>April 9, 2026</p>
+            </div>
+            <div class="card">
+                <h3>Term / Duration</h3>
+                <p>Perpetual / Ongoing</p>
+            </div>
+            <div class="card">
+                <h3>Business Purpose</h3>
+                <p>To engage in any lawful business activity.</p>
+            </div>
+        </div>
+
+        <h2 class="section-title">Principal Office & Address</h2>
+        <div class="grid">
+            <div class="card" style="grid-column: 1 / -1;">
+                <h3>Principal & Mailing Address</h3>
+                <p>1910 GOLDENROD LN<br>APT 102<br>MISSOULA, MT 59808-0007</p>
+            </div>
+        </div>
+
+        <h2 class="section-title">Management & Registered Agent</h2>
+        <div class="grid">
+            <div class="card">
+                <h3>Registered Agent</h3>
+                <p><strong>Isabella M DiGiosio</strong></p>
+                <p>Email: Issiescoop@outlook.com</p>
+            </div>
+            <div class="card">
+                <h3>LLC Management</h3>
+                <p><strong>Managed By:</strong> Members</p>
+                <p><strong>Members Liable:</strong> No</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Brizzy Creator Studios LLC. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
